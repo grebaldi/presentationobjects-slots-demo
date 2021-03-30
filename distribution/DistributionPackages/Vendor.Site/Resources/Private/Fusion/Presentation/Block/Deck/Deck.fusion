@@ -1,0 +1,20 @@
+prototype(Vendor.Site:Block.Deck) < prototype(PackageFactory.AtomicFusion.PresentationObjects:PresentationObjectComponent) {
+    @presentationObjectInterface = 'Vendor\\Site\\Presentation\\Block\\Deck\\DeckInterface'
+
+    @styleguide {
+        title = 'Deck'
+
+        props {
+            layout = 'half'
+            content = '- Add Slot Content -'
+        }
+    }
+
+    renderer = afx`
+        <div class={styles.deck + ' ' + styles['' + presentationObject.layout]}>
+            <PackageFactory.AtomicFusion.PresentationObjects:Slot
+                presentationObject={presentationObject.content}
+                />
+        </div>
+    `
+}

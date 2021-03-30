@@ -1,0 +1,76 @@
+'Vendor.Site:Content.Card':
+  superTypes:
+    'Vendor.Site:Content': true
+  ui:
+    label: 'Card'
+    inspector:
+      groups:
+        card:
+          label: 'Card Settings'
+  properties:
+    image:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Image'
+        reloadIfChanged: true
+        inspector:
+          group: card
+          editorOptions:
+            features:
+              crop: true
+            crop:
+              aspectRatio:
+                forceCrop: true
+                locked:
+                  width: 16
+                  height: 9
+    headline__type:
+      type: string
+      defaultValue: h3
+      ui:
+        label: 'Headline Type'
+        reloadIfChanged: true
+        inspector:
+          group: card
+          editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: Choose a headline type...
+            dataSourceIdentifier: vendor-site-headline-types
+    headline__size:
+      type: string
+      defaultValue: medium
+      ui:
+        label: 'Headline Size'
+        reloadIfChanged: true
+        inspector:
+          group: card
+          editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: Choose a headline size...
+            dataSourceIdentifier: vendor-site-headline-sizes
+    headline__style:
+      type: string
+      defaultValue: regular
+      ui:
+        label: 'Headline Style'
+        reloadIfChanged: true
+        inspector:
+          group: card
+          editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: Choose a headline style...
+            dataSourceIdentifier: vendor-site-headline-styles
+    headline:
+      type: string
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: 'Enter headline here...'
+    content:
+      type: string
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: 'Enter text here...'

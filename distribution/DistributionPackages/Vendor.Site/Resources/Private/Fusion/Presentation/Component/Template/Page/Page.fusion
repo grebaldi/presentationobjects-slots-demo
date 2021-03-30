@@ -1,0 +1,15 @@
+prototype(Vendor.Site:Component.Template.Page) < prototype(Neos.Fusion:Component) {
+    @styleguide {
+        title = 'Page'
+    }
+
+    renderer = afx`
+        <div class={styles.page}>
+            <Vendor.Site:Component.Organism.SiteHeader/>
+            <main class={styles.main}>
+                {props.content}
+            </main>
+            <Vendor.Site:Component.Organism.SiteFooter/>
+        </div>
+    `
+}

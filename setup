@@ -1,0 +1,10 @@
+#!/usr/bin/php
+<?php declare(strict_types=1);
+
+if (!file_exists('presentationobjects')) {
+    `git clone git@github.com:grebaldi/atomic-fusion-presentationobjects.git presentationobjects`;
+    `cd presentationobjects && git remote add upstream https://github.com/PackageFactory/atomic-fusion-presentationobjects.git`;
+    `cd presentationobjects && git fetch upstream`;
+}
+
+`cd presentationobjects && git checkout proposal/slot`;

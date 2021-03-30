@@ -1,0 +1,3 @@
+prototype(PackageFactory.AtomicFusion.PresentationObjects:PresentationObjectComponent) {
+    isInPreviewMode = ${request.controllerPackageKey == 'Sitegeist.Monocle'}
+}

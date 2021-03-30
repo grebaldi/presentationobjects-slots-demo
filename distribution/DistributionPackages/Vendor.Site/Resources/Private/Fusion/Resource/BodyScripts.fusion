@@ -1,0 +1,23 @@
+prototype(Vendor.Site:Resource.BodyScripts) < prototype(Neos.Fusion:Array) {
+    main = Neos.Fusion:Tag {
+        tagName = 'script'
+        attributes.src = Neos.Fusion:ResourceUri {
+            path = 'resource://Vendor.Site/Public/JavaScript/main.min.js'
+            @process.stripBaseUri = ${(
+                String.replace(
+                    value,
+                    Configuration.setting('Neos.Flow.http.baseUri'),
+                    '/'
+                )
+            )}
+        }
+    }
+
+    lazyloadJS = Neos.Fusion:Tag {
+        tagName = 'script'
+        attributes.async = true
+        attributes.src = Neos.Fusion:ResourceUri {
+            path = 'resource://Sitegeist.Lazybones/Public/JavaScript/lazysizes.min.js'
+        }
+    }
+}

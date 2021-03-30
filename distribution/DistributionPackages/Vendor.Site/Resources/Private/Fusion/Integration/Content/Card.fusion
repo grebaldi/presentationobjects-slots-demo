@@ -1,0 +1,5 @@
+prototype(Vendor.Site:Content.Card) < prototype(Neos.Neos:ContentComponent) {
+    renderer = Vendor.Site:Block.Card {
+        presentationObject = ${Site.Card.forCardNode(node, node.context.inBackend)}
+    }
+}

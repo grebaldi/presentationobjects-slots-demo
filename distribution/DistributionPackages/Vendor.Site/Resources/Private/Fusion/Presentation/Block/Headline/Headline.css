@@ -1,0 +1,16 @@
+.headline {
+	&.medium { font-size: 2rem; }
+	&.large { font-size: 3rem; }
+	&.xxl { font-size: 5rem; }
+
+	&.regular { font-weight: bold; }
+	&.decorative {
+		font-family: 'Brush Script MT', cursive;
+		font-weight: bold;
+		text-align: center;
+
+		&.medium { font-size: 3.6rem; }
+		&.large { font-size: 5.4rem; }
+		&.xxl { font-size: 9rem; }
+	}
+}

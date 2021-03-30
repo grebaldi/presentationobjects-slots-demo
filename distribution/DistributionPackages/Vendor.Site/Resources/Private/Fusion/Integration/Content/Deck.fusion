@@ -1,0 +1,5 @@
+prototype(Vendor.Site:Content.Deck) < prototype(Neos.Neos:ContentComponent) {
+    renderer = Vendor.Site:Block.Deck {
+        presentationObject = ${Site.Deck.forDeckNode(node)}
+    }
+}

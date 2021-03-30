@@ -1,0 +1,12 @@
+#!/usr/bin/php
+<?php declare(strict_types=1);
+
+$packages = [
+    'Packages/Application/PackageFactory.AtomicFusion.PresentationObjects' =>
+        '/packages/presentationobjects'
+];
+
+foreach ($packages as $packagePath => $replacementPath) {
+    `rm -rf $packagePath`;
+    `ln -s $replacementPath $packagePath`;
+}

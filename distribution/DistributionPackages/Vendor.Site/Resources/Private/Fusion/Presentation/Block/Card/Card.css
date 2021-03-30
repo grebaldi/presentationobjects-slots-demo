@@ -1,0 +1,26 @@
+.card {
+	border: 1px solid #222;
+	background-color: white;
+	box-shadow: 0 .3rem .6rem rgba(0, 0, 0, .16), 0 .3rem .6rem rgba(0, 0, 0, .23);
+
+	> * + * {
+		margin-top: 2rem;
+	}
+
+	> :not(.image) {
+		padding: 0 2rem;
+	}
+
+	> :not(.image):first-child {
+		padding-top: 2rem;
+	}
+
+	> :not(.image):last-child {
+		padding-bottom: 2rem;
+	}
+}
+
+.image {
+	display: block;
+	width: 100%;
+}

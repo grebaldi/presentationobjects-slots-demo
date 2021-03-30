@@ -1,0 +1,33 @@
+prototype(Vendor.Site:Block.Headline) < prototype(PackageFactory.AtomicFusion.PresentationObjects:PresentationObjectComponent) {
+    @presentationObjectInterface = 'Vendor\\Site\\Presentation\\Block\\Headline\\HeadlineInterface'
+
+    @styleguide {
+        title = 'Headline'
+
+        props {
+            size = 'medium'
+            style = 'regular'
+            type = 'h1'
+            content = '- Add Slot Content -'
+        }
+    }
+
+    renderer = Neos.Fusion:Tag {
+        tagName = ${presentationObject.type}
+        attributes {
+            class = Neos.Fusion:Join {
+                @glue = ' '
+
+                headline = ${styles.headline}
+                size = ${styles['' + presentationObject.size]}
+                style = ${styles['' + presentationObject.style]}
+                type = ${styles['' + presentationObject.type]}
+                additional = ${props.class}
+            }
+        }
+
+        content = PackageFactory.AtomicFusion.PresentationObjects:Slot {
+            presentationObject = ${presentationObject.content}
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.deck {
+	display: grid;
+	grid-gap: 2rem;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 6rem 0;
+
+	&.half {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	&.third {
+		grid-template-columns: repeat(3, 1fr);
+
+		> :odd {
+			grid-column-end: span 2;
+		}
+	}
+
+	&.twothirds {
+		grid-template-columns: repeat(3, 1fr);
+
+		> :even {
+			grid-column-end: span 2;
+		}
+	}
+
+	&.tripletts {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	&.tiles {
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+
+		> :first-child {
+			grid-column-end: span 4;
+			grid-row-end: span 2;
+		}
+
+		> :nth-child(n + 6) {
+			grid-column-end: span 2;
+		}
+	}
+}

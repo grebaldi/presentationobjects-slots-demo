@@ -1,0 +1,6 @@
+Neos:
+  Fusion:
+    defaultContext:
+      Site.Deck: Vendor\Site\Presentation\Block\Deck\DeckFactory
+      Site.Card: Vendor\Site\Presentation\Block\Card\CardFactory
+      Site.Headline: Vendor\Site\Presentation\Block\Headline\HeadlineFactory

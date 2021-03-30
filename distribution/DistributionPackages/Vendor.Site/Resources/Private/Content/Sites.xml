@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <site name="Vendor.Site" state="1" siteResourcesPackageKey="Vendor.Site" siteNodeName="vendor-site">
+  <nodes formatVersion="2.0">
+   <node identifier="3c52bef8-d904-441e-b3e5-27f5696b40d5" nodeName="vendor-site">
+    <variant sortingIndex="100" workspace="live" nodeType="Vendor.Site:Document.HomePage" version="1" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2021-03-27T20:27:29+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2021-03-27T20:27:29+00:00</lastModificationDateTime>
+     <properties>
+      <title __type="string">Vendor.Site</title>
+      <uriPathSegment __type="string">vendor-site</uriPathSegment>
+     </properties>
+    </variant>
+    <node identifier="096cda43-5539-4e1a-b926-789b0211a79a" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Vendor.Site:Collection.Content.Main" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2021-03-27T20:27:29+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2021-03-27T20:27:29+00:00</lastModificationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="25721651-ec56-4b32-be98-b21bdae6951f" nodeName="node-9m3k6gb2637l9">
+      <variant sortingIndex="150" workspace="live" nodeType="Vendor.Site:Content.Deck" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2021-03-27T21:25:44+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:16:57+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-28T10:35:40+00:00</lastPublicationDateTime>
+       <properties>
+        <layout __type="string">half</layout>
+       </properties>
+      </variant>
+      <node identifier="828c489a-a8f3-4591-8c4f-1cf77866952e" nodeName="node-2yq5rh70lz0lk">
+       <variant sortingIndex="100" workspace="live" nodeType="Vendor.Site:Content.Card" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-27T21:25:55+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</content>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="10043e38-fc24-4aed-abdb-18707c77de93" nodeName="node-88wqru8yjpur7">
+       <variant sortingIndex="125" workspace="live" nodeType="Vendor.Site:Content.Card" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-27T21:25:38+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</content>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="07905102-ac57-4e5b-a9c7-51eda2d8d331" nodeName="node-gu2x0vwm3vtd5">
+      <variant sortingIndex="100" workspace="live" nodeType="Vendor.Site:Content.Deck" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2021-03-27T20:39:44+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:22:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:22:24+00:00</lastPublicationDateTime>
+       <properties>
+        <layout __type="string">tiles</layout>
+       </properties>
+      </variant>
+      <node identifier="94bc4054-b39d-4c13-a556-a37815884bd4" nodeName="node-22e2l0anb1hov">
+       <variant sortingIndex="207" workspace="live" nodeType="Vendor.Site:Content.Card" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-29T19:21:41+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</content>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="553c5904-c9dd-4238-97a1-348f691b1cd8" nodeName="node-3ciako8stmbya">
+       <variant sortingIndex="201" workspace="live" nodeType="Vendor.Site:Content.Card" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-29T19:21:46+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-30T16:12:08+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-30T16:12:08+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</content>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="f6414713-23b2-4612-a64e-70de94bfe5d8" nodeName="node-amd16rcyje9wf">
+       <variant sortingIndex="150" workspace="live" nodeType="Vendor.Site:Content.Card" version="7" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-27T21:13:09+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-30T16:12:08+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-30T16:12:08+00:00</lastPublicationDateTime>
+        <properties>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</content>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="2e085efd-b290-4bdc-940d-2b0702244f86" nodeName="node-kfb9xuw3iwdie">
+       <variant sortingIndex="204" workspace="live" nodeType="Vendor.Site:Content.Card" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-29T19:21:46+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</content>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="455d224c-2cd3-49ff-99e0-6db32ecb62dc" nodeName="node-m4brm0ilsq4x6">
+       <variant sortingIndex="200" workspace="live" nodeType="Vendor.Site:Content.Card" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-27T21:25:33+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-30T16:12:08+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-30T16:12:08+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</content>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="b6f75109-92e1-415b-9015-3e23c9a6c863" nodeName="node-nyy94n33ahc4r">
+       <variant sortingIndex="100" workspace="live" nodeType="Vendor.Site:Content.Card" version="8" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-27T20:55:35+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastPublicationDateTime>
+        <properties>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</content>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+         <image __type="object" __identifier="50018012-ad25-4865-a64d-5ea6493a1e09" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;50018012-ad25-4865-a64d-5ea6493a1e09&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;235b7f04-faa9-4054-8c84-997b5ce9a626&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x338.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;380dcafd3f7c87875cdef86b55dcbd696c1f442b&quot;,&quot;hash&quot;:&quot;380dcafd3f7c87875cdef86b55dcbd696c1f442b&quot;,&quot;__identity&quot;:&quot;00aaead1-3a2b-49fa-858c-698577583efc&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:338,&quot;position&quot;:10,&quot;width&quot;:600,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;3461ee86-bb3b-4e1e-aab3-9153d3a089a5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+         <headline__type __type="string">h1</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">decorative</headline__style>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="9ad1cfd2-59bf-4983-bdc0-7f7f8c9f5729" nodeName="node-psf6qlet1aidb">
+       <variant sortingIndex="175" workspace="live" nodeType="Vendor.Site:Content.Card" version="8" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-28T10:45:36+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-30T16:12:08+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-30T16:12:08+00:00</lastPublicationDateTime>
+        <properties>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</content>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="1a148ab1-8149-42e6-9f62-22587a73647d" nodeName="node-vft9l50u6qptr">
+       <variant sortingIndex="202" workspace="live" nodeType="Vendor.Site:Content.Card" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-29T19:21:46+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <headline __type="string">Lorem ipsum dolor sit amet</headline>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</content>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="2ab9f906-86ff-417f-bd7c-ad948264e52b" nodeName="node-jl7h6kekb6v2f">
+      <variant sortingIndex="50" workspace="live" nodeType="Vendor.Site:Content.Deck" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2021-03-30T16:13:34+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-30T16:13:59+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-30T16:13:59+00:00</lastPublicationDateTime>
+       <properties>
+        <layout __type="string">stack</layout>
+       </properties>
+      </variant>
+      <node identifier="70787229-0081-4bb2-8e62-7fc8352ca35e" nodeName="node-rol66yg2ywfls">
+       <variant sortingIndex="100" workspace="live" nodeType="Vendor.Site:Content.Card" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-30T16:13:43+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-30T16:13:59+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-30T16:13:59+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">medium</headline__size>
+         <headline__style __type="string">regular</headline__style>
+         <image __type="object" __identifier="0db7a151-add0-4969-86fc-dfea8541806a" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;0db7a151-add0-4969-86fc-dfea8541806a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;3fedd3fc-c343-4b0d-9a88-fafa408ac3c6&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;1200x675.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;892e3601e0525493e27f4e2b1648a1e2f454ca1d&quot;,&quot;hash&quot;:&quot;892e3601e0525493e27f4e2b1648a1e2f454ca1d&quot;,&quot;__identity&quot;:&quot;e425d2dc-f5b4-46ac-b8f1-1b301509b8fc&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:674,&quot;position&quot;:10,&quot;width&quot;:1200,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;ac4a1378-639d-40fd-8202-08a38125bebf&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="2bcd955d-e96b-49ed-afe9-851bccc3c83b" nodeName="node-mfb171pif61v0">
+      <variant sortingIndex="125" workspace="live" nodeType="Vendor.Site:Content.Deck" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2021-03-28T10:45:49+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastPublicationDateTime>
+       <properties>
+        <layout __type="string">stack</layout>
+       </properties>
+      </variant>
+      <node identifier="217c45e8-1a33-4ee4-9547-a5e37bf8fd70" nodeName="node-0735t2jxf7c78">
+       <variant sortingIndex="100" workspace="live" nodeType="Vendor.Site:Content.Card" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-28T10:45:53+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-29T19:31:56+00:00</lastPublicationDateTime>
+        <properties>
+         <headline__type __type="string">h3</headline__type>
+         <headline__size __type="string">xxl</headline__size>
+         <headline__style __type="string">decorative</headline__style>
+         <headline __type="string">This is an Element</headline>
+         <content __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</content>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+   </node>
+  </nodes>
+ </site>
+</root>

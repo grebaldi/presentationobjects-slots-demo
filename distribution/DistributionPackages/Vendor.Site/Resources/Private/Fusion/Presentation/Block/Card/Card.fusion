@@ -1,0 +1,42 @@
+prototype(Vendor.Site:Block.Card) < prototype(PackageFactory.AtomicFusion.PresentationObjects:PresentationObjectComponent) {
+    @presentationObjectInterface = 'Vendor\\Site\\Presentation\\Block\\Card\\CardInterface'
+
+    @styleguide {
+        title = 'Card'
+
+        props {
+            headline {
+                size = 'medium'
+                style = 'regular'
+                type = 'h1'
+                content = '- Add Slot Content -'
+            }
+            content = '- Add Slot Content -'
+        }
+    }
+
+    renderer = afx`
+        <div class={styles.card}>
+            <Sitegeist.Lazybones:Image
+                imageSource={presentationObject.image}
+                class={styles.image}
+                @if.isToBeRendered={presentationObject.image}
+                />
+
+            <Vendor.Site:Block.Headline
+                presentationObject={presentationObject.headline}
+                class={styles.headline}
+                @if.isToBeRendered={presentationObject.headline}
+                />
+
+            <div
+                class={styles.content}
+                @if.isToBeRendered={presentationObject.content}
+                >
+                <PackageFactory.AtomicFusion.PresentationObjects:Slot
+                    presentationObject={presentationObject.content}
+                    />
+            </div>
+        </div>
+    `
+}

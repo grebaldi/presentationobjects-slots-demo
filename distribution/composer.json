@@ -1,0 +1,60 @@
+{
+    "name": "grebaldi/neos-contribution-distribution",
+    "description": "Minimal Neos CMS distribution optimized for Core development purposes",
+    "config": {
+        "vendor-dir": "Packages/Libraries",
+        "bin-dir": "bin",
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "neos/neos": "~7.0.0",
+        "neos/neos-ui": "~7.0.0",
+
+        "vendor/site": "^1.0",
+        "packagefactory/atomicfusion-presentationobjects": "^2.0",
+        "sitegeist/monocle": "^7.3",
+        "sitegeist/lazybones": "^3.0"
+    },
+    "require-dev": {
+        "neos/buildessentials": "^7.0",
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^9.0",
+        "symfony/css-selector": "~2.0",
+        "neos/behat": "^6.1"
+    },
+    "suggest": {
+        "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
+    },
+    "scripts": {
+        "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+        "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+
+        "flush": [
+            "./flow flow:cache:flush --force",
+            "./flow flow:package:rescan",
+            "./flow doctrine:migrate",
+            "./flow resource:publish"
+        ],
+
+        "cleanup:php": [
+            "rm -rf ./Data/Temporary/*",
+            "rm -rf ./Packages/*",
+            "rm -rf ./bin/*"
+        ],
+
+        "clone": [
+            "./flow clone:list",
+            "./flow clone:preset"
+        ]
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "./DistributionPackages/*"
+        }
+    }
+}

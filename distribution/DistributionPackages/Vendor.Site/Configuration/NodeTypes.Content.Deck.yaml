@@ -1,0 +1,27 @@
+'Vendor.Site:Content.Deck':
+  superTypes:
+    'Vendor.Site:Content': true
+    'Vendor.Site:Constraint.Content.Main': true
+  ui:
+    label: 'Deck'
+    inspector:
+      groups:
+        deck:
+          label: 'Deck Settings'
+  constraints:
+    nodeTypes:
+      '*': false
+      'Vendor.Site:Content.Card': true
+  properties:
+    layout:
+      type: string
+      defaultValue: half
+      ui:
+        label: 'Deck Layout'
+        reloadIfChanged: true
+        inspector:
+          group: deck
+          editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: Choose a deck layout...
+            dataSourceIdentifier: vendor-site-deck-layouts

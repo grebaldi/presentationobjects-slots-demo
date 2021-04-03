@@ -14,7 +14,7 @@ use PackageFactory\AtomicFusion\PresentationObjects\Presentation\Slot\SlotInterf
 /**
  * @Flow\Proxy(false)
  */
-final class Card extends AbstractComponentPresentationObject implements CardInterface
+final class Card extends AbstractComponentPresentationObject implements CardInterface, SlotInterface
 {
     private ?ImageSourceHelperInterface $image;
 
@@ -45,5 +45,10 @@ final class Card extends AbstractComponentPresentationObject implements CardInte
     public function getContent(): ?SlotInterface
     {
         return $this->content;
+    }
+
+    public function getPrototypeName(): string
+    {
+        return 'Vendor.Site:Block.Card';
     }
 }

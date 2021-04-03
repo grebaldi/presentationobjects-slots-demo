@@ -18,4 +18,14 @@ final class DeckFactory extends AbstractComponentPresentationObjectFactory
             Collection::fromNodes($node->findChildNodes())
         );
     }
+
+    public function forAssets(array $assets): DeckInterface
+    {
+        return new Deck(
+            DeckLayout::stack(),
+            Collection::fromIterable($assets, function (AssetInterface $asset) {
+                return $this->cardFactory->fromAsset($asset);
+            })
+        );
+    }
 }

@@ -7,8 +7,10 @@ namespace Vendor\Site\Presentation\Block\Card;
 
 use Neos\Flow\Annotations as Flow;
 use Neos\ContentRepository\Domain\Projection\Content\TraversableNodeInterface;
+use Neos\Media\Domain\Model\Image;
 use PackageFactory\AtomicFusion\PresentationObjects\Fusion\AbstractComponentPresentationObjectFactory;
 use PackageFactory\AtomicFusion\PresentationObjects\Presentation\Slot\Editable;
+use PackageFactory\AtomicFusion\PresentationObjects\Presentation\Slot\Value;
 use Sitegeist\Kaleidoscope\EelHelpers\AssetImageSourceHelper;
 use Vendor\Site\Presentation\Block\Headline\HeadlineFactory;
 
@@ -32,6 +34,15 @@ final class CardFactory extends AbstractComponentPresentationObjectFactory
             ($inBackend || $node->getProperty('content'))
                 ? Editable::fromNodeProperty($node, 'content')
                 : null
+        );
+    }
+
+    public function forImage(Image $image): CardInterface
+    {
+        return new Card(
+            new AssetImageSourceHelper($image),
+            null,
+            Value::fromAny($image->getTitle())
         );
     }
 }

@@ -1,0 +1,5 @@
+prototype(Vendor.Site:Content.ImageList) < prototype(Neos.Neos:ContentComponent) {
+    renderer = Vendor.Site:Block.Deck {
+        presentationObject = ${Site.Deck.forImageListNode(node)}
+    }
+}

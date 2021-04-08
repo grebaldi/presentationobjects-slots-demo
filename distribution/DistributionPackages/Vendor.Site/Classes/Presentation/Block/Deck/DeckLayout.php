@@ -36,6 +36,20 @@ final class DeckLayout implements EnumInterface
         return new self($string);
     }
 
+    public static function fromNumber(int $number): self
+    {
+        switch (true) {
+            case $number <= 1:
+                return self::stack();
+            case $number <= 2:
+                return self::half();
+            case $number <= 3:
+                return self::tripletts();
+            default:
+                return self::tiles();
+        }
+    }
+
     public static function stack(): self
     {
         return new self(self::LAYOUT_STACK);

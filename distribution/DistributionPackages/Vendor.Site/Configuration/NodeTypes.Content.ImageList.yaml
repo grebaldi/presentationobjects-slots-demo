@@ -1,0 +1,20 @@
+'Vendor.Site:Content.ImageList':
+  superTypes:
+    'Vendor.Site:Content': true
+    'Vendor.Site:Constraint.Content.Main': true
+  ui:
+    label: 'Image List'
+    inspector:
+      groups:
+        card:
+          label: 'Card Settings'
+  properties:
+    images:
+      type: array<Neos\Media\Domain\Model\Asset>
+      ui:
+        label: 'Image'
+        reloadIfChanged: true
+        inspector:
+          group: card
+          editorOptions:
+            mediaTypes: ['image/*']
